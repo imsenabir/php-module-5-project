@@ -101,7 +101,7 @@ INSERT INTO posts(title,content,user_id) VALUE ('My first Panda post','This is t
 -- inserting data into comments table
 INSERT INTO comments(content,post_id,user_id) VALUE ('This is a comment on the first post.','1','1') ;
 
---getting all post with user info
+-- getting all post with user info
 
 SELECT user.id AS UserID, user.email AS UserEmail,
        post.id AS PostID, post.title AS PostTitle,
